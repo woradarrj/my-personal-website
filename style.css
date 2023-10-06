@@ -1,0 +1,34 @@
+.blue-background {
+  background-color: #A0C3D2;
+}
+
+.beige-background {
+    background-color: #F7F5EB ;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+h1 {
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+}
+
+.joke {
+    font-size: small;
+}
+
+.profile{
+    border-radius: 50%;
+    border: solid #A0C3D2 3px ;
+}
+
+.quote {
+    font-style: italic;
+    font-size: smaller;
+    color: grey;
+}
